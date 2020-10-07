@@ -1,93 +1,14 @@
 {
-  "classifications":[
-    {
-      "name":"Public",
-      "children":[
-        {
-          "name":"Marketing"
-        },
-        {
-          "name":"News Releases"
-        },
-        {
-          "name":"Public Financials"
-        }
-      ]
-    },
-    {
-      "name":"Internal",
-      "children":[
-        {
-          "name":"News Letters"
-        },
-        {
-          "name":"Policies & Procedures"
-        },
-        {
-          "name":"Pricing Schedules"
-        },
-        {
-          "name":"Non-Confidential Privacy"
-        }
-      ]
-    },
-    {
-      "name":"Confidential",
-      "children":[
-        {
-          "name":"Agreements"
-        },
-        {
-          "name":"Complaints"
-        },
-        {
-          "name":"Confidential Privacy"
-        },
-        {
-          "name":"Contracts"
-        },
-        {
-          "name":"Financials"
-        },
-        {
-          "name":"IT & Security Architectures"
-        },
-        {
-          "name":"Legal"
-        },
-        {
-          "name":"Non-Critical IP"
-        },
-        {
-          "name":"Proposals"
-        },
-        {
-          "name":"Reports"
-        },
-        {
-          "name":"Strategies"
-        },
-        {
-          "name":"Workforce Salaries"
-        }
-      ]
-    },
-    {
-      "name":"Restricted",
-      "children":[
-        {
-          "name":"Critical IP"
-        },
-        {
-          "name":"Executive Compensation"
-        },
-        {
-          "name":"Investigations"
-        },
-        {
-          "name":"M&A"
-        }
-      ]
-    }
-  ]
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
